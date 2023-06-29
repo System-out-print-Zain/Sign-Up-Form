@@ -7,4 +7,38 @@ html {
     background-image: url(assets/background.jpg);
     background-size: cover;
     height: 100%;
+    font-family: desert-font;
+    color: white;
+    text-transform: uppercase;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    height: 100%;
+}
+
+#right {
+    background-color: grey;
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+#left {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+#logo-img {
+    height: 150px;
+    width: 200px;
+}
+
+#logo {
+    text-align: center;
+    font-size: 30px;
 }
