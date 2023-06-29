@@ -2,3 +2,9 @@
     font-family: desert-font;
     src: url(assets/Kahlil.otf);
 }
+
+html {
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    height: 100%;
+}
