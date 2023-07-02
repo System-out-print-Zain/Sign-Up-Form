@@ -117,3 +117,10 @@ button {
     flex-direction: column;
     margin: 50px;
 }
+
+/*Restyle one the screen width is smalll enough*/
+@media screen and (max-width: 600px){
+    #left {
+        display: none;
+    }
+}
